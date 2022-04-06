@@ -351,19 +351,50 @@
 
 /* CONHECIMENTOS */
 
-.versionamento{
-   margin: 2em;
-   display: flex; 
-
+.conhecimentos__programas{
+    margin: 2em;
+    display: flex;
+    align-items: stretch;
 }
 
 .texto__versionamento{
     color: #ffffff;
     font-weight: bold;
     font-size: 12px;
-    padding: 4px 45px 1px
+    padding: 4px 12px 1px;
 }
 
+/* DONWLOAD */
+
+.parteupload{
+    margin: 2em;
+}
+
+.upload__botao{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* RODAPÉ DO CARD */
+
+.rodapecard{
+    display: flex;
+    text-align: center;
+    height: 70px;
+}
+
+.rodapecard__redessociais{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    margin-left: 4.5em;
+}
+
+.redes{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em;
+}
 
 /* SEGUNDO CONTAINER */
 
