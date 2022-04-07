@@ -13,28 +13,57 @@
 }
 
 /* MAIN */
-
+/* SOBRE MIM */
 .principal{
-    background-color: #ffffff;;
-    padding: 5vh 0;
+    background-color: #ffffff;
+    display: flex;
 }
 
-.allcontainers{
-    display: flex;
-    justify-content: center;
+.paragrafos{
+    margin: 2em;
+}
+
+.titulos__textos{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/*MEUS PROJETOS*/
+.cardprojeto1__titulo{
+    background-color: #cadcff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+
+
+.cardprojeto1{
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
 }
 
 
 /* Card 1 */
+
+
 .card{
-    width: 25%;
-    border: solid #000000 7px;
+    width: 50%;
     background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
-    border-radius: 4px;
+    font-family: 'Anek Telugu', sans-serif;
 }
 
 
 /* IMAGEM PERFIL DO CARD */
+
+.card{
+    width: 1300px;
+}
+
+
 .img__cabecalho {
     width: 102px;
     height: 138px;
@@ -91,7 +120,7 @@
 
 .container{
     background-color: #20202a;
-    height: 1300px ;
+    height: 90%;
     margin-top: 5px 0 0;
     padding: 2em;
 }
@@ -376,32 +405,25 @@
 }
 
 /* RODAPÉ DO CARD */
-
 .rodapecard{
-    display: flex;
-    text-align: center;
     height: 70px;
 }
 
 .rodapecard__redessociais{
     display: flex;
-    align-items: center;
-    padding: 40px 0;
-    margin-left: 4.5em;
+    padding: 0;
+    margin: 20px;
+    justify-content: center;
 }
 
 .redes{
+    margin: 0 20px;
+    text-decoration: none; 
     color: #ffffff;
-    text-decoration: none;
-    padding: 1em;
+    font-weight: bold;
 }
+
+/* FIM CARD */
 
 /* SEGUNDO CONTAINER */
 
-.card__informacoes_2{
-    width: 70%;
-    margin: 0 20px;
-    padding: 50vh 0;
-    border: #000000 2px solid;
-    background-color: #54626e;
-}
