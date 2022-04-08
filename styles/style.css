@@ -20,47 +20,117 @@
 }
 
 .paragrafos{
-    margin: 2em;
+    margin: 4em;
 }
 
 .titulos__textos{
     font-weight: bold;
     font-size: 20px;
-
 }
+
+/* FORMAÇÃO ACADÊMICA */
+
+body{margin-top:20px;}
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #3b82f6;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+
+/* ======================== */
 
 /*MEUS PROJETOS*/
-.cardprojeto1__titulo{
-    background-color: #cadcff;
+.allcard__projetos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body__projetos{
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 900;
     text-align: center;
-    padding: 1em 0;
 }
 
-
-
-
-
-.cardprojeto1{
-    width: 200px;
-    height: 200px;
-    background-color: #000000;
+.card-title__projetos{
+    text-align: center;
+    font-weight: 900;
+    margin: 15px 0;
 }
 
+.btn-primary{
+    margin: 15px 0;
+}
 
-/* Card 1 */
+/* ============================================================================ */
+/* CARD LATERAL */
 
 
-.card{
-    width: 50%;
+
+
+/* IMAGEM PERFIL DO CARD LATERAL*/
+
+.card__lateral{
+    width: 100%;
     background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
     font-family: 'Anek Telugu', sans-serif;
-}
-
-
-/* IMAGEM PERFIL DO CARD */
-
-.card{
-    width: 1300px;
+    border-radius: 0;
+    height: 150vh;
 }
 
 
@@ -406,13 +476,13 @@
 
 /* RODAPÉ DO CARD */
 .rodapecard{
-    height: 70px;
+    background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
 }
 
 .rodapecard__redessociais{
     display: flex;
-    padding: 0;
-    margin: 20px;
+    padding: 25px;
+
     justify-content: center;
 }
 
@@ -424,6 +494,4 @@
 }
 
 /* FIM CARD */
-
-/* SEGUNDO CONTAINER */
 

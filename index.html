@@ -25,7 +25,7 @@
         
         <main class="principal">
             <!-- cards -->
-            <div class="card">
+            <div class="card__lateral">
                 <div class="card__cabecalho">
                     <img src="imagens/avatar-redondo.png" alt="" class="img__cabecalho">
                         <div class="card__texto">
@@ -159,8 +159,10 @@
                         <div class="parteupload">
                             <a href="" class="upload__botao">DOWLOAD CV <i class="fa-solid fa-download"></i></a>
                         </div>
+
+                      
+                       
                     </div>
-                    
                     <!-- RODAPÉ CARD 1 - REDES SOCIAIS -->
                     <div class="rodapecard">
                         <ul class="rodapecard__redessociais">
@@ -168,14 +170,14 @@
                             <li><a href="#" class="redes"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="#" class="redes"><i class="fa-brands fa-github"></i></a></li>
                             <li><a href="#" class="redes"><i class="fa-brands fa-discord"></i></a></li>
-                            <li><a href="#" class="redes"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#" class="redes"><i class="fa-solid fa-envelope"></i></i></a></li>
                         </ul>
-                    </div>
+                    </div>       
                 </div>
             </div>
             <section class="textos">
                 <!-- SOBRE MIM -->
-                <div class="paragrafos">
+                <section class="paragrafos">
                     <h2 class="titulos__textos">SOBRE MIM</h2>
                     <p>Sou nascido e criado na periferia de São Paulo, no bairro do Capão Redondo. E por vim de periferia, me sinto no dever de dar meu máximo
                         dia após dia. Bem, começando denovo, meu nome é João Vitor de Abreu Sousa, mas todo mundo me chama de "Abreu", tenho 18 anos de idade. Sou ousado e divertido. 
@@ -186,26 +188,111 @@
                         na Etec Jardim Ângela, iniciei no 2º semestre de 2020 e cocluí no fim de 2021. Hoje estou cursando o mesmo curso no Senai-Suiço brasileiro. E com toda certeza do mundo, admito que pretendo 
                         continuar nessa área tão incrível.
                     </p>
-                </div>
+                </section>
+                
+                <!-- FORMAÇÃO ACADÊMICA -->
+    
+                <section class="paragrafos">
+                    <h2 class="titulos__textos">Formação Acadêmica</h2>
+                    <div class="container_formacao">                      
+                        <div class="row text-center justify-content-center mb-5">
+                            <div class="col-xl-6 col-lg-8">
+                                <h2 class="font-weight-bold">A Company Evolution</h2>
+                                <p class="text-muted">We’re very proud of the path we’ve taken. Explore the history that made us the company we are today.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col">
+                                <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                                    <div class="timeline-step">
+                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                                            <div class="inner-circle"></div>
+                                            <p class="h6 mt-3 mb-1">2003</p>
+                                            <p class="h6 text-muted mb-0 mb-lg-0">Favland Founded</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-step">
+                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                                            <div class="inner-circle"></div>
+                                            <p class="h6 mt-3 mb-1">2004</p>
+                                            <p class="h6 text-muted mb-0 mb-lg-0">Launched Trello</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-step">
+                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                                            <div class="inner-circle"></div>
+                                            <p class="h6 mt-3 mb-1">2005</p>
+                                            <p class="h6 text-muted mb-0 mb-lg-0">Launched Messanger</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-step">
+                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
+                                            <div class="inner-circle"></div>
+                                            <p class="h6 mt-3 mb-1">2010</p>
+                                            <p class="h6 text-muted mb-0 mb-lg-0">Open New Branch</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-step mb-0">
+                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2020">
+                                            <div class="inner-circle"></div>
+                                            <p class="h6 mt-3 mb-1">2020</p>
+                                            <p class="h6 text-muted mb-0 mb-lg-0">In Fortune 500</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===================================================================================================== -->
+            
+                </section>
 
                 <!-- MEUS PROJETOS -->
 
-                <div class="paragrafos">
+                <section class="paragrafos">
                     <h2 class="titulos__textos">Projetos</h2>
-                    <div meusprojetos>
-                        <div class="cardprojeto1">
-                        <h2 class="cardprojeto1__titulo">Projeto Nike</h2>
-                            <div class="cardprojeto1__conteudo">
 
+                    <section class="allcard__projetos">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagens/nike.jpg" class="card-img-top" alt="logonike" style="height: 60%">
+                            <div class="card-body__projetos">
+                            <h5 class="card-title__projetos">Protótipo NIKE</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Vamos ver!?</a>
                             </div>
-                            
                         </div>
-                    </div>
-                </div>
+
+                        
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagens/jvf.png" class="card-img-top" alt="logojabezvision" >
+                            <div class="card-body__projetos">
+                            <h5 class="card-title__projetos">JABEZ VISION FINANCE</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Vamos ver!?</a>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                 <!-- Objetivos -->
+
+                <section class="paragrafos">
+                    <h2 class="titulos__textos">Objetivos</h2>
+                    <p>Meu principal objetivo é continuar na área de desenvolvimento web, principalmente na parte de Front-End, ainda mais agora que vivemos em um mundo digitalizado, onde tudo tem um santo "toque" de tecnologia. Conseguindo minha primeira vaga, abracarei e vou tê-la como única. Mostrando meu valor, e principalmente, agregando dentro da empresa.
+                    </p>
+                </section>
+
+
+                <section class="paragrafos">
+                    <h2 class="titulos__textos">Tecnologias a serem estudas:</h2>
+                </section>
+
             </section>    
         <!-- ======================= -->
 
-        <!--  -->
+       
         </main>
     
     </body>
