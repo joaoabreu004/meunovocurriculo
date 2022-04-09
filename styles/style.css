@@ -135,7 +135,7 @@ body{margin-top:20px;}
 
 .card__lateral{
     width: 25vw;
-    background:#252532fa;
+    background: linear-gradient(159deg, #252532 0%, #23232d 100%);;
     font-family: 'Anek Telugu', sans-serif;
     border-radius: 0;
     height: 100%;
@@ -482,7 +482,7 @@ body{margin-top:20px;}
 /* DONWLOAD */
 
 .parteupload{
-    margin: 2em;
+    margin: 2em 2em 0;
 }
 
 .upload__botao{
