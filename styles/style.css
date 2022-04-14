@@ -514,6 +514,7 @@ body{margin-top:20px;}
 .rodapecard__redessociais{
     display: flex;
     padding: 30px 0  0;
+    margin: 15px 0;
     justify-content: center;
 }
 
@@ -525,12 +526,47 @@ body{margin-top:20px;}
     color: #8c8c8e;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
+    
+}
+
+.logo1{
+    animation: float1 5s ease-in-out infinite;
+    transform: translateY(0)
+}
+
+.logo2{
+    animation: float2 5s ease-in-out infinite;
+    transform: translateY(0)
 }
 
 /* PSEUDO ELEMENTO */
 .redes:hover{
     font-weight: bold;
     color: #ffffff;
+}
+
+@keyframes float1{
+    0%{
+        transform: translateY(0)
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes float2{
+    0%{
+        transform: translateY(-10px)
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
 }
 
 

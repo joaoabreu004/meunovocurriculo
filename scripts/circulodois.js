@@ -3,7 +3,7 @@ let valueContainerTwo = document.querySelector(".value__circuloespanhol");
 
 let progressValueTwo = 0; 
 let progressEndValueTwo = 65; 
-let speedTwo = 10; 
+let speedTwo = 20; 
 
 
 let progressTwo = setInterval(() => {

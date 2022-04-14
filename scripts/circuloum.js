@@ -3,7 +3,7 @@ let valueContainer = document.querySelector(".value__circulo");
 
 let progressValue = 0; 
 let progressEndValue = 75; 
-let speed = 10; 
+let speed = 20; 
 
 
 let progress = setInterval(() => {

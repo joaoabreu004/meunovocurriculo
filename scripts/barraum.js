@@ -3,7 +3,7 @@ let valorObtido = document.querySelector(".valor");
 
 let progressoValor = 0; 
 let progressoValorFinal = 70; 
-let velocidade = 10; 
+let velocidade = 20; 
 
 let progresso = setInterval(() =>{
     progressoValor++;
