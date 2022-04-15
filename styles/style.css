@@ -49,8 +49,8 @@ body{margin-top:20px;}
     flex-wrap: wrap
 }
 
-.col-xl-6 {
-    display: none;
+.row{
+    padding-top: 3em;
 }
 
 .timeline-steps .timeline-step {
