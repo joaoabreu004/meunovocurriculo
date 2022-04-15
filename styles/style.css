@@ -8,9 +8,9 @@
     display: flex;
     background-color: #15191C;
     justify-content: end;
-    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 16);
+    /* box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 16); */
     padding: 4vh 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16); 
 }
 
 
@@ -27,6 +27,7 @@
 }
 /* SOBRE MIM */
 .principal{
+    margin-top: 2em ;
     background-color: #ffffff;
     display: flex;
 }
