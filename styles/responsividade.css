@@ -1,0 +1,49 @@
+/* TELAS CELULARES */
+
+@media screen and (min-width:0) { 
+    .principal{
+        display: block;
+    }
+    
+    .textos{
+        padding-left: 0;
+    }
+
+    .allcard__projetos {
+        display: block;
+    }
+
+    .card{
+        margin-bottom: 2em;
+    }
+}
+
+
+/* TELAS DE TABLETS */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* TELAS NOTEBOOK (PEQUENOS)*/
+
+@media screen and (min-width: 992px) {
+    
+}
+
+/* NOVOS NOTEBOOKS; COMPUTADORES E TVS */
+
+@media screen and (min-width:1200px) {
+    .principal{
+        display: flex;
+    }
+
+    .textos{
+        padding-left: 23em;
+    }
+
+    .allcard__projetos{
+        display: flex;
+        justify-content: space-around;
+    }
+}
