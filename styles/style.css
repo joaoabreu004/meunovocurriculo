@@ -49,6 +49,10 @@ body{margin-top:20px;}
     flex-wrap: wrap
 }
 
+.col-xl-6 {
+    display: none;
+}
+
 .timeline-steps .timeline-step {
     align-items: center;
     display: flex;
