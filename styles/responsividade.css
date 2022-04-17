@@ -57,11 +57,18 @@
     /* CARD */
 
     .card__lateral{
-        width: 40vw;
+        width: 45vw;
     }
 
     .container1{
-        padding: 2em 0;
+        padding: 3em 0;;
+    }
+
+    .allcard__projetos {
+        display: flex;
+        align-items: stretch;
+        padding-top: 2em;
+        flex-direction: row;
     }
 
 }
