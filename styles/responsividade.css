@@ -1,20 +1,52 @@
 /* TELAS CELULARES */
 
 @media screen and (min-width:0) { 
+    /* CABEÇALHO */
+    .cabecalho{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .btnabrirmenu{
+        margin-left:1em
+    }
+
+    /* CARD */
+    .card__lateral{
+        width: 92vw;
+    }
+
     .principal{
         display: block;
     }
-    
+ 
     .textos{
         padding-left: 0;
-    }
+    } 
 
     .allcard__projetos {
         display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2em;
     }
 
     .card{
         margin-bottom: 2em;
+    }
+
+    /* CONTAINER CARD */
+    .container1 {
+        background-color: #20202a;
+        height: auto;
+        margin-top: 5px 0 0;
+        padding: 0em;
+    }
+    /* MAIN */
+
+    .paragrafos{
+        margin: 2em
     }
 }
 
@@ -34,8 +66,24 @@
 /* NOVOS NOTEBOOKS; COMPUTADORES E TVS */
 
 @media screen and (min-width:1200px) {
+    .btnabrirmenu{
+        display: none;
+    }
+    .btnclose{
+        display: none;
+    }
+    
+    .cabecalho {
+        display: flex;
+        justify-content: end;
+    }
+    
     .principal{
         display: flex;
+    }
+
+    .card__lateral{
+        width: 25vw;
     }
 
     .textos{

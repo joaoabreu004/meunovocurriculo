@@ -1,45 +1,66 @@
 
 *{
     font-family: 'Anek Telugu', sans-serif;
-}
+}    
+
+    
 
 /* HEADER */
 .cabecalho{
     display: flex;
     background-color: #15191C;
-    justify-content: end;
+    justify-content:flex-end;
     /* box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 16); */
     padding: 4vh 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16); 
+}    
+
+.btnabrirmenu{
+    color: #8c8c8e;;
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+    border: none;
+    background: none;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    margin-left: 2em;
+    left: 0;
 }
 
+.btnabrirmenu:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
 
 .cabecalho__logo {
     width: 50px;
     height: 50px;
     margin-right: 2em;
-}
+}    
 
 /* MAIN */
 
 .textos{
     padding-left: 23em;
-}
+    transition: padding-left 0.5s ;
+}    
+
 /* SOBRE MIM */
 .principal{
     margin-top: 2em ;
     background-color: #ffffff;
     display: flex;
-}
+}    
 
 .paragrafos{
     margin: 4em;
-}
+}    
 
 .titulos__textos{
     font-weight: bold;
     font-size: 20px;
-}
+}    
 
 /* FORMAÇÃO ACADÊMICA */
 
@@ -48,11 +69,11 @@ body{margin-top:20px;}
     display: flex;
     justify-content: center;
     flex-wrap: wrap
-}
+}    
 
 .row{
     padding-top: 3em;
-}
+}    
 
 .timeline-steps .timeline-step {
     align-items: center;
@@ -60,7 +81,7 @@ body{margin-top:20px;}
     flex-direction: column;
     position: relative;
     margin: 1rem
-}
+}    
 
 @media (min-width:768px) {
     .timeline-steps .timeline-step:not(:last-child):after {
@@ -71,7 +92,7 @@ body{margin-top:20px;}
         position: absolute;
         left: 7.5rem;
         top: .3125rem
-    }
+    }    
     .timeline-steps .timeline-step:not(:first-child):before {
         content: "";
         display: block;
@@ -80,13 +101,13 @@ body{margin-top:20px;}
         position: absolute;
         right: 7.5rem;
         top: .3125rem
-    }
-}
+    }    
+}    
 
 .timeline-steps .timeline-content {
     width: 10rem;
     text-align: center
-}
+}    
 
 .timeline-steps .timeline-content .inner-circle {
     border-radius: 1.5rem;
@@ -96,7 +117,7 @@ body{margin-top:20px;}
     align-items: center;
     justify-content: center;
     background-color: #3b82f6
-}
+}    
 
 .timeline-steps .timeline-content .inner-circle:before {
     content: "";
@@ -107,7 +128,7 @@ body{margin-top:20px;}
     min-width: 3rem;
     border-radius: 6.25rem;
     opacity: .5
-}
+}    
 
 /* ======================== */
 
@@ -115,24 +136,24 @@ body{margin-top:20px;}
 .allcard__projetos{
     display: flex;
     justify-content: space-around;
-}
+}    
 
 .card-body__projetos{
     background-color: #ffffff;
     color: #000000;
     font-weight: 900;
     text-align: center;
-}
+}    
 
 .card-title__projetos{
     text-align: center;
     font-weight: 900;
     margin: 15px 0;
-}
+}    
 
 .btn-primary{
     margin: 15px 0;
-}
+}    
 
 
 
@@ -149,13 +170,13 @@ body{margin-top:20px;}
 
 .card__lateral::-webkit-scrollbar{
     display: none;
-}
+}    
 
 
 /* BOTÃO FECHAR MENU */
 .cabecalho__btn{
     padding: 0 2em 0 0;
-}
+}    
 
 
 .btnclose {    
@@ -177,7 +198,6 @@ body{margin-top:20px;}
 
 
 .card__lateral{
-    width: 25vw;
     background: linear-gradient(159deg, #252532 0%, #23232d 100%);;
     font-family: 'Anek Telugu', sans-serif;
     border-radius: 0;
@@ -186,11 +206,17 @@ body{margin-top:20px;}
     position: fixed;
     z-index: 1;
     top: 0; 
-    left: 0;
     overflow-x: hidden; 
-    padding-top: 20px;
+    padding-top: 20px; 
+    left: -100vw;
+    width: 25vw;
+    transition: .25s;
 }
 
+.card__lateral--ativo{
+    left: 0;
+    transition: .25s;
+}
 
 .img__cabecalho {
     width: 102px;
@@ -247,7 +273,7 @@ body{margin-top:20px;}
 
 
 
-.container{
+.container1{
     background-color: #20202a;
     height: auto;
     margin-top: 5px 0 0;
