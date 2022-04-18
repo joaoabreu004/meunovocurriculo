@@ -76,6 +76,24 @@
 /* TELAS NOTEBOOK (PEQUENOS)*/
 
 @media screen and (min-width: 992px) {
+    .cabecalho {
+        display: flex;
+        justify-content: end;
+    }
+
+    .card__lateral{
+        width: 35vw;
+    }
+    .btnabrirmenu{
+        display: none;
+    }
+    .btnclose{
+        display: none;
+    }
+    
+    .textos{
+        padding-left: 23em;
+    }
     
 }
 
@@ -97,7 +115,7 @@
 
     /* CARD - CONTAINER*/
     .card__lateral{
-        width: 25vw;
+        width: 27vw;
     }
 
     .container1 {
@@ -113,7 +131,7 @@
 
 
     .textos{
-        padding-left: 23em;
+        padding-left: 25em;
     }
 
     .allcard__projetos{
