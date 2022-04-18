@@ -7,9 +7,7 @@
 
 /* HEADER */
 .cabecalho{
-    display: flex;
     background-color: #15191C;
-    justify-content:flex-end;
     /* box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 16); */
     padding: 4vh 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16); 
@@ -41,10 +39,7 @@
 
 /* MAIN */
 
-.textos{
-    padding-left: 23em;
-    transition: padding-left 0.5s ;
-}    
+  
 
 /* SOBRE MIM */
 .principal{
@@ -82,27 +77,7 @@ body{margin-top:20px;}
     position: relative;
     margin: 1rem
 }    
-
-@media (min-width:768px) {
-    .timeline-steps .timeline-step:not(:last-child):after {
-        content: "";
-        display: block;
-        border-top: .25rem dotted #3b82f6;
-        width: 3.46rem;
-        position: absolute;
-        left: 7.5rem;
-        top: .3125rem
-    }    
-    .timeline-steps .timeline-step:not(:first-child):before {
-        content: "";
-        display: block;
-        border-top: .25rem dotted #3b82f6;
-        width: 3.8125rem;
-        position: absolute;
-        right: 7.5rem;
-        top: .3125rem
-    }    
-}    
+  
 
 .timeline-steps .timeline-content {
     width: 10rem;
@@ -132,11 +107,7 @@ body{margin-top:20px;}
 
 /* ======================== */
 
-/*MEUS PROJETOS*/
-.allcard__projetos{
-    display: flex;
-    justify-content: space-around;
-}    
+
 
 .card-body__projetos{
     background-color: #ffffff;

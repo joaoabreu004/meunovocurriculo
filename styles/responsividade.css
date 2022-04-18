@@ -71,6 +71,31 @@
         flex-direction: row;
     }
 
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }    
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    } 
+
+    .allcard__projetos{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: stretch;
+    }
 }
 
 /* TELAS NOTEBOOK (PEQUENOS)*/
@@ -93,6 +118,13 @@
     
     .textos{
         padding-left: 23em;
+    }
+
+    .allcard__projetos{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: stretch;
     }
     
 }
@@ -134,9 +166,4 @@
         padding-left: 25em;
     }
 
-    .allcard__projetos{
-       display: flex;
-       flex-direction: row;
-       align-items: stretch;
-    }
 }
