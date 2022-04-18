@@ -39,7 +39,15 @@
 
 /* MAIN */
 
-  
+/* AREA DE VISUALIZAÇÃO */
+.textos{
+    transition: 0.5s;
+}
+/* 
+.textos--cardAberto{
+    padding-left: 30em;
+    transition: 0.5s;
+} */
 
 /* SOBRE MIM */
 .principal{
@@ -55,7 +63,9 @@
 .titulos__textos{
     font-weight: bold;
     font-size: 20px;
-}    
+}  
+
+
 
 /* FORMAÇÃO ACADÊMICA */
 

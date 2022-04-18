@@ -19,10 +19,10 @@
     .principal{
         display: block;
     }
- 
+/*  
     .textos{
         padding-left: 0;
-    } 
+    }  */
 
     
     .card{
@@ -37,6 +37,10 @@
         padding: 2em 0;
     }
     /* MAIN */
+    .textos--cardAberto{
+        padding-left: 0;
+        transition: 0;
+    }
 
     .paragrafos{
         margin: 2em
@@ -64,9 +68,10 @@
         padding: 3em 0;;
     }
 
+
     .allcard__projetos {
         display: flex;
-        align-items: stretch;
+        align-items: center;
         padding-top: 2em;
         flex-direction: row;
     }
@@ -101,16 +106,10 @@
 /* TELAS NOTEBOOK (PEQUENOS)*/
 
 @media screen and (min-width: 992px) {
-    .btnabrirmenu{
-        display: none;
-    }
-    .btnclose{
-        display: none;
-    }
 
     .cabecalho {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
     }
 
     .card__lateral{
@@ -121,9 +120,10 @@
         padding: 1em 0;
     }
     
-    .textos{
-        padding-left: 23em;
-    }
+    /* .textos{
+        padding-left: 3em;
+        transition: 0.5s;
+    } */
 
     .allcard__projetos{
         display: flex;
@@ -132,23 +132,21 @@
         align-items: stretch;
     }
     
+    .textos--cardAberto{
+        padding-left: 23em;
+        transition: 0.5s;
+    }
 }
 
 /* NOVOS NOTEBOOKS; COMPUTADORES E TVS */
 
 @media screen and (min-width:1200px) {
     /* CABEÇALHO PRINCIPAL */
-    .btnabrirmenu{
-        display: none;
-    }
-    .btnclose{
-        display: none;
-    }
-    
     .cabecalho {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
     }
+
 
     /* CARD - CONTAINER*/
     .card__lateral{
@@ -167,8 +165,10 @@
     }
 
 
-    .textos{
-        padding-left: 25em;
+    .textos--cardAberto{
+        padding-left: 29em;
+        transition: 0.5s;
     }
+    
 
 }
