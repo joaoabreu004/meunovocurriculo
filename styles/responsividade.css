@@ -101,19 +101,24 @@
 /* TELAS NOTEBOOK (PEQUENOS)*/
 
 @media screen and (min-width: 992px) {
+    .btnabrirmenu{
+        display: none;
+    }
+    .btnclose{
+        display: none;
+    }
+
     .cabecalho {
         display: flex;
         justify-content: end;
     }
 
     .card__lateral{
-        width: 35vw;
+        width: 30vw;
     }
-    .btnabrirmenu{
-        display: none;
-    }
-    .btnclose{
-        display: none;
+
+    .container1 {
+        padding: 1em 0;
     }
     
     .textos{
