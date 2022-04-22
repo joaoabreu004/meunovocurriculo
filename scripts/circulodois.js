@@ -1,12 +1,12 @@
-let progressBarTwo = document.querySelector(".circulo__progressespanhol"); 
-let valueContainerTwo = document.querySelector(".value__circuloespanhol");
+var progressBarTwo = buscarElemento(".circulo__progressespanhol"); 
+var valueContainerTwo = buscarElemento(".value__circuloespanhol");
 
-let progressValueTwo = 0; 
-let progressEndValueTwo = 65; 
-let speedTwo = 20; 
+var progressValueTwo = 0; 
+var progressEndValueTwo = 65; 
+var speedTwo = 35; 
 
 
-let progressTwo = setInterval(() => {
+var progressTwo = setInterval(() => {
     progressValueTwo++; 
     // console.log(progressValueTwo);
     valueContainerTwo.textContent = `${progressValueTwo}%`;

@@ -1,9 +1,9 @@
-let barraProgresso3  = document.querySelector(".barra-progresso__JS"); 
-let valorObtido3 = document.querySelector(".valor__3"); 
+
+let valorObtido3 = buscarElemento(".valor__3"); 
 
 let progressoValor3 = 0; 
 let progressoValorFinal3 = 20; 
-let velocidade3 = 20; 
+let velocidade3 = 35; 
 
 let progresso3 = setInterval(() =>{
     progressoValor3++;

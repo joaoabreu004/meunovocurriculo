@@ -183,11 +183,12 @@ body{margin-top:20px;}
     font-family: 'Anek Telugu', sans-serif;
     border-radius: 0;
     height: 100%;
+    /* ================================================== */
     overflow-y: scroll;
     position: fixed;
     z-index: 1;
     top: 0; 
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
     padding-top: 20px; 
     left: -100vw;
     width: 25vw;
@@ -200,7 +201,6 @@ body{margin-top:20px;}
 }
 
 .img__cabecalho {
-    
     height: 138px;
     color: #ffffff;
     border-radius: 50%;
@@ -449,8 +449,8 @@ body{margin-top:20px;}
 .barra-progresso{
     background-color: #4d5bf9;
     height: 10px;
-    width: 70%;
-    animation: progress-animation 1s forwards;
+    width: 95%;
+    animation: progress-animation 3s forwards;
 }
 
 
@@ -469,8 +469,8 @@ body{margin-top:20px;}
 .barra-progresso__CSS{
     background-color: #4d5bf9;
     height: 10px;
-    width: 75%;
-    animation: progress-animation 1s forwards;
+    width: 90%;
+    animation: progress-animation 3s forwards;
 }
 
 @keyframes progress-animation {
@@ -488,7 +488,7 @@ body{margin-top:20px;}
     background-color: #4d5bf9;
     height: 10px;
     width: 20%;
-    animation: progress-animation 1s forwards;
+    animation: progress-animation 3s forwards;
 }
 
 @keyframes progress-animation {
@@ -507,7 +507,7 @@ body{margin-top:20px;}
     background-color: #4d5bf9;
     height: 10px;
     width: 10%;
-    animation: progress-animation 1s forwards;
+    animation: progress-animation 3s forwards;
 }
 
 @keyframes progress-animation {

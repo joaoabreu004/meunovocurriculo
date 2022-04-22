@@ -1,14 +1,32 @@
-const botaoFechar = document.querySelector('.btnclose'); 
-const informacoes = document.querySelector('.card__lateral'); 
-var deslocTextos = document.querySelector('.textos'); 
+// FUNÇÃO PARA BUSCAR ELEMENTO (FUNÇÃO GLOBAL)
+function buscarElemento(seletor){
+    return document.querySelector(seletor); 
+}
+
+// FUNÇÕES PARA ESSA RESPONSABILIDADE (CARD LATERAL)
+
+function eliminarElementoCss(variavel, elementoQueVaiSair){
+    return variavel.classList.remove(elementoQueVaiSair); 
+} 
+
+function adicionarElementoCss(variavel, elementoAdicionado){
+    return variavel.classList.add(elementoAdicionado);
+}
+// ===========================================================
+
+const informacoes = buscarElemento('.card__lateral'); 
+const deslocTextos = buscarElemento('.textos'); 
+const botaoAbrir = buscarElemento('.btnabrirmenu');
+const botaoFechar = buscarElemento('.btnclose');
+
 
 botaoFechar.addEventListener('click', () => {
-    informacoes.classList.remove('card__lateral--ativo'); 
-    deslocTextos.classList.remove('textos--cardAberto')
+    eliminarElementoCss(informacoes, 'card__lateral--ativo'); 
+    eliminarElementoCss(deslocTextos, 'textos--cardAberto');
 })
 
-const botaoAbrir = document.querySelector('.btnabrirmenu')
 botaoAbrir.addEventListener('click', () => {
-    informacoes.classList.toggle('card__lateral--ativo');
-    deslocTextos.classList.add('textos--cardAberto');
+    adicionarElementoCss(informacoes, 'card__lateral--ativo');
+    adicionarElementoCss(deslocTextos, 'textos--cardAberto');
 })
+
