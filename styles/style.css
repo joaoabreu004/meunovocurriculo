@@ -575,23 +575,22 @@ body{margin-top:20px;}
     
 }
 
-.logo1{
-    animation: float1 5s ease-in-out infinite;
-    transform: translateY(0)
-}
-
-.logo2{
-    animation: float2 5s ease-in-out infinite;
-    transform: translateY(0)
-}
 
 /* PSEUDO ELEMENTO */
 .redes:hover{
     font-weight: bold;
+    font-size: 20px;
     color: #ffffff;
 }
+/* .logo1{
+    animation: float1 5s ease-in-out infinite;
+    /* transform: translateY(0) */ 
 
-@keyframes float1{
+/* .logo2{
+    animation: float2 5s ease-in-out infinite;
+    /* transform: translateY(0) */
+
+/* @keyframes float1{
     0%{
         transform: translateY(0)
     }
@@ -613,7 +612,7 @@ body{margin-top:20px;}
     100%{
         transform: translateY(-10px);
     }
-}
+} */
 
 
 /* FOOTER  */
