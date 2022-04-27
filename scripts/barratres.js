@@ -2,7 +2,7 @@
 let valorObtido3 = buscarElemento(".valor__3"); 
 
 let progressoValor3 = 0; 
-let progressoValorFinal3 = 20; 
+let progressoValorFinal3 = 50; 
 let velocidade3 = 35; 
 
 let progresso3 = setInterval(() =>{
