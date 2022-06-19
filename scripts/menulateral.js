@@ -30,3 +30,4 @@ botaoAbrir.addEventListener('click', () => {
     adicionarElementoCss(deslocTextos, 'textos--cardAberto');
 })
 
+
