@@ -52,6 +52,8 @@
         align-items: center;
         padding-top: 2em;
     }
+
+   
 }
 
 
@@ -89,6 +91,14 @@
         top: .3125rem
     } 
 
+    .swiper-navBtn{
+        color: #6E93F7;
+        transition: color 0.3s ease;
+    }
+    
+    .swiper-navBtn:hover{
+        color: #4070F4;
+    }
 
 }
 
@@ -119,6 +129,15 @@
         padding-left: 23em;
         transition: 0.5s;
     } */
+    .swiper-navBtn{
+        color: #6E93F7;
+        transition: color 0.3s ease;
+    }
+    
+    .swiper-navBtn:hover{
+        color: #4070F4;
+    }
+
 }
 
 /* NOVOS NOTEBOOKS; COMPUTADORES E TVS */
@@ -146,12 +165,14 @@
     .principal{
         display: flex;
     }
-/* 
 
+    .slide-content{
+        margin: 0 30px;
+    }
+    /* 
     .textos--cardAberto{
         padding-left: 20em;
         transition: 0.5s;
     }
      */
-
 }
