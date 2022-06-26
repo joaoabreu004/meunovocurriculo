@@ -69,12 +69,6 @@
     }
 
 
-    .allcard__projetos {
-        display: flex;
-        align-items: center;
-        padding-top: 2em;
-        flex-direction: row;
-    }
 
     .timeline-steps .timeline-step:not(:last-child):after {
         content: "";
@@ -95,12 +89,7 @@
         top: .3125rem
     } 
 
-    .allcard__projetos{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        align-items: stretch;
-    }
+
 }
 
 /* TELAS NOTEBOOK (PEQUENOS)*/
@@ -125,12 +114,6 @@
         transition: 0.5s;
     } */
 
-    .allcard__projetos{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        align-items: stretch;
-    }
     
     .textos--cardAberto{
         padding-left: 23em;
