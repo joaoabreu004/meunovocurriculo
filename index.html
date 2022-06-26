@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsividade.css">
+    <!-- LINKER SWIPER's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -195,43 +197,140 @@
     
                 <section class="paragrafos">
                     <h2 class="titulos__textos">Formação Acadêmica</h2>                 
-                        <div class="row">
-                            <div class="col">
-                                <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
-                                    <div class="timeline-step">
-                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
-                                            <div class="inner-circle"></div>
-                                            <p class="h6 mt-3 mb-1">2019 - 2021</p>
-                                            <p class="h6 text-muted mb-0 mb-lg-0">Ensino Médio <br>Professor Leopoldo Santana</p>
-                                        </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                                <div class="timeline-step">
+                                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                                        <div class="inner-circle"></div>
+                                        <p class="h6 mt-3 mb-1">2019 - 2021</p>
+                                        <p class="h6 text-muted mb-0 mb-lg-0">Ensino Médio <br>Professor Leopoldo Santana</p>
                                     </div>
-                                    <div class="timeline-step">
-                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
-                                            <div class="inner-circle"></div>
-                                            <p class="h6 mt-3 mb-1">2020 - 2021</p>
-                                            <p class="h6 text-muted mb-0 mb-lg-0">Desenvolvimento de Sistemas<br>ETEC Jardim Ângela</p>
-                                        </div>
+                                </div>
+                                <div class="timeline-step">
+                                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                                        <div class="inner-circle"></div>
+                                        <p class="h6 mt-3 mb-1">2020 - 2021</p>
+                                        <p class="h6 text-muted mb-0 mb-lg-0">Desenvolvimento de Sistemas<br>ETEC Jardim Ângela</p>
                                     </div>
-                                    <div class="timeline-step">
-                                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
-                                            <div class="inner-circle"></div>
-                                            <p class="h6 mt-3 mb-1">2022 - 2023</p>
-                                            <p class="h6 text-muted mb-0 mb-lg-0">Desenvolvimento de Sistemas<br>Senai Suíço-Brasileira Paulo Ernesto Tolle</p>
-                                        </div>
+                                </div>
+                                <div class="timeline-step">
+                                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                                        <div class="inner-circle"></div>
+                                        <p class="h6 mt-3 mb-1">2022 - 2023</p>
+                                        <p class="h6 text-muted mb-0 mb-lg-0">Desenvolvimento de Sistemas<br>Senai Suíço-Brasileira Paulo Ernesto Tolle</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                         
                         <!-- ===================================================================================================== -->
-            
                 </section>
                 
                 <!-- MEUS PROJETOS -->
+                <section class="paragrafos">
+                    <h2 class="titulos__textos">Projetos</h2>                 
+                    <div class="slide-container swiper">
+                        <div class="slide-content">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <div class="card-image">
+                                            <img src="./imagens/jvf.png" alt="" class="card-img">
+                                        </div>
+                                    </div>
                 
+                                    <div class="card-content">
+                                        <div class="media-project">
+                                            <a href=""><i class="fa-brands fa-github"></i></a>
+                                            <i class="fa-solid fa-check done"></i>
+                                        </div>
+                                        <h2 class="name-project">JVZ FINANCE</h2>
+                                        <p class="description">Página estática desenvolvida para um grupo de estudantes norte-americanos com o intuito de apresentação para apresentar um "produto" de educação financeira.</p>
+                                        <button class="btn-visitPage">VISITAR PROJETO</button>
+                                    </div>
+                                </div>
                 
-
-                 <!-- Objetivos -->
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <div class="card-image">
+                                            <img src="./imagens/nike.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <div class="media-project">
+                                            <a href=""><i class="fa-brands fa-github"></i></a>
+                                            <i class="fa-solid fa-helmet-safety construction"></i>
+                                        </div>
+                                        <h2 class="name-project">NIKE PROTÓTIPO</h2>
+                                        <p class="description">Página sendo desenvolvida com base no site oficial da nike brasil. Literalmente simulando a loja virtual da Nike. Ou seja, fazendo coisas que eu gosto e ao mesmo tempo me desenvolvendo.</p>
+                                        <button class="btn-visitPage">PROJETO EM CONSTRUÇÃO</button>
+                                    </div>
+                                </div>     
+                                
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <div class="card-image">
+                                            <img src="./imagens/operacoes.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <div class="media-project">
+                                            <a href=""><i class="fa-brands fa-github"></i></a>
+                                            <i class="fa-solid fa-helmet-safety construction"></i>
+                                        </div>
+                                        <h2 class="name-project">CALCULADORA</h2>
+                                        <p class="description">Página estática desenvolvida para um grupo de estudantes norte-americanos com o intuito de apresentação para apresentar um "produto" de educação financeira.</p>
+                                        <button class="btn-visitPage">PROJETO EM CONSTRUÇÃO</button>
+                                    </div>
+                                </div>   
+                                
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <div class="card-image">
+                                            <img src="./imagens/spotify.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <div class="media-project">
+                                            <i class="fa-solid fa-ban estudos"></i>
+                                        </div>
+                                        <h2 class="name-project">SPOTIFY</h2>
+                                        <p class="description">Página estática desenvolvida para um grupo de estudantes norte-americanos com o intuito de apresentação para apresentar um "produto" de educação financeira.</p>
+                                        <button class="btn-visitPage">PROJETO EM FASE DE ESTUDOS</button>
+                                    </div>
+                                </div>     
+                                
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <div class="card-image">
+                                            <img src="./imagens/pokemon.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <div class="media-project">
+                                            <a href=""><i class="fa-brands fa-github"></i></a>
+                                            <i class="fa-solid fa-helmet-safety construction"></i>
+                                        </div>
+                                        <h2 class="name-project">PROJETO PROKEMON</h2>
+                                        <p class="description">Página estática desenvolvida para um grupo de estudantes norte-americanos com o intuito de apresentação para apresentar um "produto" de educação financeira.</p>
+                                        <button class="btn-visitPage">PROJETO CONSTRUÇÃO</button>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+                <!-- Objetivos -->
 
                 <section class="paragrafos">
                     <h2 class="titulos__textos">Objetivos</h2>
@@ -265,6 +364,9 @@
         <script src="scripts/barradois.js"></script>
         <script src="scripts/barratres.js"></script>
         <script src="scripts/barraquatro.js"></script>
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="scripts/carrouselcard.js"></script>
         <!-- ================================================ -->
     </body>
 </html>

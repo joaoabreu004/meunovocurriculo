@@ -115,10 +115,10 @@
     } */
 
     
-    .textos--cardAberto{
+    /* .textos--cardAberto{
         padding-left: 23em;
         transition: 0.5s;
-    }
+    } */
 }
 
 /* NOVOS NOTEBOOKS; COMPUTADORES E TVS */
@@ -146,12 +146,12 @@
     .principal{
         display: flex;
     }
-
+/* 
 
     .textos--cardAberto{
-        padding-left: 33em;
+        padding-left: 20em;
         transition: 0.5s;
     }
-    
+     */
 
 }
