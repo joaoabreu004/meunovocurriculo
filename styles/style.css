@@ -153,6 +153,7 @@ body{margin-top:20px;}
     padding: 10px 14px;
 }
 
+
 .image-content{
     position: relative;
     padding: 25px 0;
@@ -201,6 +202,15 @@ body{margin-top:20px;}
 
 .btn-visitPage:hover{
     background: #484848;
+}
+
+.btn-visitPage, .link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-visitPage, .link:hover{
+    color: #FFF;
 }
 
 .media-project{
