@@ -271,6 +271,7 @@ body{margin-top:20px;}
     display: flex;
     transition-property: transform;
     box-sizing: content-box;
+    
 }
 
 
@@ -386,10 +387,6 @@ body{margin-top:20px;}
 .titulos__informacoes{
     font-size: 16px;
 }
-
-
-/* Container: Card 1 */
-
 
 
 .container1{
@@ -593,7 +590,6 @@ body{margin-top:20px;}
 
 @keyframes progress-animation {
     0% {width: 0%;}
-    /* 50% {width: 50%;}   */
 } 
 
 /* BARRA 2 : CSS */
@@ -612,7 +608,6 @@ body{margin-top:20px;}
 
 @keyframes progress-animation {
     0% {width: 0%;}
-    /* 50% {width: 50%;}   */
 } 
 
 /* BARRA 3 JS */
@@ -690,9 +685,6 @@ body{margin-top:20px;}
 }
 
 /* RODAPÉ DO CARD */
-/* .rodapecard{
-    background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
-} */
 
 .rodapecard__redessociais{
     display: flex;
@@ -719,38 +711,6 @@ body{margin-top:20px;}
     font-size: 20px;
     color: #ffffff;
 }
-
-/* .logo1{
-    animation: float1 5s ease-in-out infinite;
-    /* transform: translateY(0) */ 
-
-/* .logo2{
-    animation: float2 5s ease-in-out infinite;
-    /* transform: translateY(0) */
-
-/* @keyframes float1{
-    0%{
-        transform: translateY(0)
-    }
-    50%{
-        transform: translateY(-10px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-
-@keyframes float2{
-    0%{
-        transform: translateY(-10px)
-    }
-    50%{
-        transform: translateY(0);
-    }
-    100%{
-        transform: translateY(-10px);
-    }
-} */
 
 
 /* FOOTER  */

@@ -19,10 +19,7 @@
     .principal{
         display: block;
     }
-/*  
-    .textos{
-        padding-left: 0;
-    }  */
+
 
     
     .card{
@@ -119,16 +116,6 @@
         padding: 1em 0;
     }
     
-    /* .textos{
-        padding-left: 3em;
-        transition: 0.5s;
-    } */
-
-    
-    /* .textos--cardAberto{
-        padding-left: 23em;
-        transition: 0.5s;
-    } */
     .swiper-navBtn{
         color: #6E93F7;
         transition: color 0.3s ease;
@@ -169,10 +156,4 @@
     .slide-content{
         margin: 0 30px;
     }
-    /* 
-    .textos--cardAberto{
-        padding-left: 20em;
-        transition: 0.5s;
-    }
-     */
 }
