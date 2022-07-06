@@ -132,7 +132,7 @@ body{margin-top:20px;}
 
 .card{
     position: relative;
-    border-radius: 25%;
+    border-radius: 30%;
     background-color: #FFF;
 }
 
@@ -142,6 +142,7 @@ body{margin-top:20px;}
     height: 40%;
     width: 100%;
     background-color: #20202a;
+    border-radius: 5px ;
 
 }
 
@@ -150,7 +151,7 @@ body{margin-top:20px;}
     display: flex;
     flex-direction: column; 
     align-items: center;
-    padding: 10px 14px;
+    padding: 15px 14px;
 }
 
 
